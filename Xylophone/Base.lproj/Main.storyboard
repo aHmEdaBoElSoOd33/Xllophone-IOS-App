@@ -31,7 +31,7 @@
                                                     <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5bF-XO-ATp"/>
+                                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zkQ-gS-oAF"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -193,6 +193,15 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oZh-va-wUR" secondAttribute="trailing" id="dkZ-ni-FND"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btn" destination="8gy-aN-mwb" id="mfT-cm-0lB"/>
+                        <outlet property="btn2" destination="bmt-H6-BG6" id="Bqg-7z-48e"/>
+                        <outlet property="btn3" destination="u0W-9L-e8d" id="sZq-BZ-zc8"/>
+                        <outlet property="btn4" destination="Ip4-Tn-bEa" id="sKd-4o-H9d"/>
+                        <outlet property="btn5" destination="A4r-Wc-pHT" id="9GK-LE-agB"/>
+                        <outlet property="btn6" destination="ErA-KZ-PMl" id="7Qu-Gv-DnP"/>
+                        <outlet property="btn7" destination="Gbj-H0-ZqU" id="tRW-Kx-8Fu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

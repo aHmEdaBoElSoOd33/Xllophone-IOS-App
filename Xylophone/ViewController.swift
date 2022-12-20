@@ -11,12 +11,34 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var btn: UIButton!
+    
+    @IBOutlet weak var btn2: UIButton!
+    
+    @IBOutlet weak var btn3: UIButton!
+    @IBOutlet weak var btn4: UIButton!
+    
+    @IBOutlet weak var btn5: UIButton!
+    
+    @IBOutlet weak var btn6: UIButton!
+    
+    @IBOutlet weak var btn7: UIButton!
+    
+    
+    
     
     var player: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        btn.layer.cornerRadius = 7
+        btn2.layer.cornerRadius = 7
+        btn3.layer.cornerRadius = 7
+        btn4.layer.cornerRadius = 7
+        btn5.layer.cornerRadius = 7
+        btn6.layer.cornerRadius = 7
+        btn7.layer.cornerRadius = 7
     }
 
     
